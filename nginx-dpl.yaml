@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gilangvperdana/research:nginxv1.0.1
+        image: gilangvperdana/research:nginxv1.0.2
         resources:
           limits:
             memory: "128Mi"
