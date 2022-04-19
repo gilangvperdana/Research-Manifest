@@ -2,4 +2,4 @@
 
 ## Latest Research
 
-- [ ] make auto Deployment with ArgoCD for Kubernetes Cluster
+- [x] make auto Deployment with ArgoCD for Kubernetes Cluster
