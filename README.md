@@ -1,4 +1,4 @@
-# Repository for Research K8s
+# Repository for Research
 
 ## Latest Research
 
