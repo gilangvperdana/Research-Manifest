@@ -1,14 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-nodeport
+  name: nginx-nodeports
 spec:
   ports:
   - port: 80
     protocol: TCP
     targetPort: 80
-    nodePort: 30001
+    nodePort: 30088
   selector:
     app: nginx
   type: NodePort
-
