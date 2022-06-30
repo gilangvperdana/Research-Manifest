@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: nginx-another-deployment
 spec:
   selector:
     matchLabels:
-      app: nginx
+      app: nginx-another
   replicas: 5
   template:
     metadata:
       labels:
-        app: nginx
+        app: nginx-another
     spec:
       containers:
       - name: nginx
-        image: gilangvperdana/research:nginxv.1.0.8
+        image: gilangvperdana/research:nginxv.1.0.8-another
         resources:
           limits:
             memory: "128Mi"
